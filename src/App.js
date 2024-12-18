@@ -110,7 +110,6 @@ function App() {
                   style={avatarStyle}
                 />
                 <Typography variant="body1">Email: {user.email}</Typography>
-                <Typography variant="body1">User ID: {user.uid}</Typography>
                 <Typography variant="body1">
                   Last Login: {user.metadata.lastSignInTime}
                 </Typography>
